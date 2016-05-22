@@ -39,4 +39,5 @@ config :podder, Podder.Repo,
   password: "postgres",
   database: "podder_dev",
   hostname: "localhost",
+  port: 5432,
   pool_size: 10
